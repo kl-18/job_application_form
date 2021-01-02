@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>job form</title>
+</head>
+<body>
+    <center>
+        <form action='#' method='POST'>
+            <table>
+                <tr>
+                    <td>Name:</td><td> <input type='text' id='name' name='name'  required/></td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td><td><input type='text' id='mobileno' name='mobileno' minlength='10' required/></td>
+                </tr>
+                <tr>
+                    <td>Email:</td><td><input type='text' id='email' name='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$' required/></td>
+                </tr>
+                <tr>
+                    <td>Age:</td><td><input type='text' id='age' name='age' required/></td>
+                </tr>
+                <tr>
+                    <td>Experience:</td><td><input type='text' id='experience' name='experience' required/></td>
+                </tr>
+                <tr>
+                    <td>Skill:</td><td><input type='checkbox' id='skill1' value='java'>java  <input type='checkbox' id='skill2' value='javascript'>javascript <input type='checkbox' id='skill3' value='.net'>.net </td>
+                </tr>
+                <tr>
+                    <td>Resume:</td><td><input type='file' id='resume' name='resume' required/></td>
+                </tr>
+                <tr>
+                    <td></td><td> <input type='submit' value='submit'></td>
+                </tr>
+        </form>
+    </center>
+</body>
