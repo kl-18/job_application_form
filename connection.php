@@ -7,10 +7,10 @@ $dbname = "employeedetails";
 
 $con = mysqli_connect($db_host, $username, $password, $dbname);
 
-if ($con) {
+/*if ($con) {
   echo "connected";
 }
 else{
     echo "notconnected";
-}
+}*/
 ?>
